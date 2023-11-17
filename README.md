@@ -5,8 +5,8 @@ At least one subdomain must be listed, usually @ which is the bare/root domain. 
 
 Example:
   [
-    {"domain" : "domain.tld", "password" : "NamecheapPassword", "hosts" : ["@", "*"]}
-    {"domain" : "other.com", "password" : "DifferntNamecheapPassword", "hosts" : ["subdomain", "*.subdomain"]},
+    {"domain" : "domain.tld", "password" : "NamecheapPassword", "hosts" : ["@", "*"]},
+    {"domain" : "other.com", "password" : "DifferntNamecheapPassword", "hosts" : ["subdomain", "*.subdomain"]}
   ]
 
 The above will update the DDNS for domain.tld, *.domain.tld, subdomain.other.com, and *.subdomain.other.com
